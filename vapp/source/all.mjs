@@ -5,6 +5,7 @@ import SourceDmzj from "./online/dmzj.mjs";
 import SourceKoxMoe from "./online/koxmoe.mjs";
 import SourceMikanAni from "./online/mikanani.mjs";
 import SourceGuguFan from "./online/gugufan.mjs";
+import SourceMgnAcg from "./online/mgnacg.mjs";
 import SourceAnime1 from "./db/anime1.mjs";
 
 const AIRANIME_RP_URL = "./fetch";
@@ -39,6 +40,11 @@ const ALL_SOURCES = [
         "Anime/mikanani/蜜柑计划",
         "mikanani.me",
         `${AIRANIME_RP_URL}/mikanani/{kt}`
+    ),
+    new SourceMgnAcg(
+        "Anime/mgnacg/橘子动漫",
+        "www.mgnacg.com",
+        `${AIRANIME_RP_URL}/mgnacg/{kt}`
     ),
     new SourceKoxMoe(
         "Manga/koxmoe/KoxMoe",

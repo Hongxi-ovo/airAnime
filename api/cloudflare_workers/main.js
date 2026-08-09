@@ -13,6 +13,7 @@ const SUB_URLS = {
     koxmoe: "https://airanime-koxmoe-fetch.txperl.workers.dev/?keyword={kt}",
     dmzj: "https://sacg.dmzj.com/comicsum/search.php?s={kt}",
     gugufan: "https://www.gugu3.com/index.php/vod/search.html?wd={kt}",
+    mgnacg: "https://www.mgnacg.com/index.php/ajax/suggest?mid=1&wd={kt}",
 };
 
 async function handleRequest(request) {
