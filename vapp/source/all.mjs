@@ -6,6 +6,7 @@ import SourceKoxMoe from "./online/koxmoe.mjs";
 import SourceMikanAni from "./online/mikanani.mjs";
 import SourceGuguFan from "./online/gugufan.mjs";
 import SourceMgnAcg from "./online/mgnacg.mjs";
+import SourceOmoFun from "./online/omofun.mjs";
 import SourceAnime1 from "./db/anime1.mjs";
 
 const AIRANIME_RP_URL = "./fetch";
@@ -45,6 +46,11 @@ const ALL_SOURCES = [
         "Anime/mgnacg/橘子动漫",
         "www.mgnacg.com",
         `${AIRANIME_RP_URL}/mgnacg/{kt}`
+    ),
+    new SourceOmoFun(
+        "Anime/omofun/OmoFun",
+        "omofun.in",
+        `${AIRANIME_RP_URL}/omofun/{kt}`
     ),
     new SourceKoxMoe(
         "Manga/koxmoe/KoxMoe",

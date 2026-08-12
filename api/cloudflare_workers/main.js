@@ -14,6 +14,7 @@ const SUB_URLS = {
     dmzj: "https://sacg.dmzj.com/comicsum/search.php?s={kt}",
     gugufan: "https://www.gugu3.com/index.php/vod/search.html?wd={kt}",
     mgnacg: "https://www.mgnacg.com/index.php/ajax/suggest?mid=1&wd={kt}",
+    omofun: "https://omofun.in/vod/search.html?wd={kt}",
 };
 
 async function handleRequest(request) {
